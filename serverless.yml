@@ -66,29 +66,29 @@ functions:
     environment:
       POSTGRES_DB: usersDB
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: FriendsForever
-      POSTGRES_HOST: db-instance-1.ck6hfuh2ox1y.us-east-2.rds.amazonaws.com:5432
+      POSTGRES_PASSWORD: 
+      POSTGRES_HOST: 
   read_user:
     handler: handler.read_user
     environment:
       POSTGRES_DB: usersDB
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: FriendsForever
-      POSTGRES_HOST: db-instance-1.ck6hfuh2ox1y.us-east-2.rds.amazonaws.com:5432
+      POSTGRES_PASSWORD: 
+      POSTGRES_HOST: 
   update_user:
     handler: handler.update_user
     environment:
       POSTGRES_DB: usersDB
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: FriendsForever
-      POSTGRES_HOST: db-instance-1.ck6hfuh2ox1y.us-east-2.rds.amazonaws.com:5432
+      POSTGRES_PASSWORD: 
+      POSTGRES_HOST: 
   delete_user:
     handler: handler.delete_user
     environment:
       POSTGRES_DB: usersDB
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: FriendsForever
-      POSTGRES_HOST: db-instance-1.ck6hfuh2ox1y.us-east-2.rds.amazonaws.com:5432
+      POSTGRES_PASSWORD: 
+      POSTGRES_HOST: 
       
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
