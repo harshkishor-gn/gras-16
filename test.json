@@ -1,0 +1,10 @@
+{
+    "pathParameters":{
+        "id": "10"
+    },
+    "body":{
+        "username":"tumkhdb",
+        "email":"tonky23@email.com",
+        "password":"2l/aef$ald"
+    }
+}
